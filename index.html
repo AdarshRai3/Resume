@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-   
-    <!--Icons from Fontawesome website -->
-    <script src="https://kit.fontawesome.com/6834fc8242.js" crossorigin="anonymous"></script>
-    <!-- js function -->
-    <script>
-       function toggleMenu() {
-       const menu = document.querySelector(".menu-links");
-       const icon = document.querySelector(".hamburger-icon");
-       menu.classList.toggle("open");
-       icon.classList.toggle("open");
-      }
-    </script>
-
-    <!-- Mediaquery for responsive website -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
@@ -52,12 +38,12 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="Assets/Image/AdarshRai.jpeg" alt="profile picture" />
+        <img src="assets/Image/AdarshRai.jpeg" alt="Adarsh Rai profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Adarsh Rai</h1>
-        <p class="section__text__p2">Fullstack Developer</p>
+        <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -74,13 +60,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/adarsh-rai-97a7b727b/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/AdarshRai3'"
           />
         </div>
       </div>
@@ -89,7 +75,6 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-       
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
@@ -99,7 +84,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>1+ years <br/>Fullstack Development</p>
+              <p>1+ years <br />Fullstack development Development <br>Coding Ninjas</p>
             </div>
             <div class="details-container">
               <img
@@ -108,12 +93,12 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.E. Etectronic and Telecommunication</p>
+              <p>B.E. Electronic and Telecommunication,RTMNU</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              
+              Currently pursing BE in Electronic Telecommunication Engineering passing out in 2023 from RTMNU, Nagpur. Interested in Computer Sciences ,currently studying web development course from Coding Ninjas and seeking job opportunity in Software Development. Open to learn new technologies.
             </p>
           </div>
         </div>
@@ -122,7 +107,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='#experience'"
       />
     </section>
     <section id="experience">
@@ -131,7 +116,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Frontend Development Skills</h2>
             <div class="article-container">
               <article>
                 <img
@@ -202,7 +187,7 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Backend Development Skills</h2>
             <div class="article-container">
               <article>
                 <img
@@ -244,7 +229,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
+                  <h3>MongoDB</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -336,6 +321,30 @@
               </button>
             </div>
           </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Four</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <img
@@ -363,7 +372,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/adarsh-rai-97a7b727b/">LinkedIn</a></p>
         </div>
       </div>
     </section>
