@@ -52,10 +52,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: #1DA1F2;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #1DA1F2;
 }
 
 .logo {
@@ -64,6 +64,10 @@ a:hover {
 
 .logo:hover {
   cursor: default;
+} 
+#nightmodeIcon{
+  width:30px;
+  cursor:pointer;
 }
 
 /* HAMBURGER MENU */
